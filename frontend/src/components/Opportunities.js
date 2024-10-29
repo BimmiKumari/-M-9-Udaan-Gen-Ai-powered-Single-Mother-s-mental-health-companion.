@@ -17,28 +17,28 @@ const Opportunities = () => {
       ministry_name: "Ministry of Rural Development",
       scheme_name: "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)",
       scheme_description: "Aims to reduce poverty by enabling poor households to access gainful self-employment and skilled wage employment opportunities.",
-      icon: "https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/05/13172737/All-schemes-of-government-of-india-300x175.png",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREpKNCsYILFnsJzSmfXkZbztzqBAWFS0p0iw&s",
       url: "https://aajeevika.gov.in/"
     },
     {
       ministry_name: "Ministry of Skill Development and Entrepreneurship",
       scheme_name: "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
       scheme_description: "Enables Indian youth to take up industry-relevant skill training that will help them in securing a better livelihood.",
-      icon: "https://example.com/icons/pmkvy.png",
+      icon: "https://www.pmindia.gov.in/wp-content/uploads/2024/09/H20240917166404.jpg",
       url: "https://www.pmkvyofficial.org/"
     },
     {
       ministry_name: "Ministry of Housing and Urban Affairs",
       scheme_name: "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
       scheme_description: "Addresses urban housing shortage among the EWS/LIG and MIG categories including the slum dwellers.",
-      icon: "https://example.com/icons/pmay-u.png",
+      icon: "https://i0.wp.com/page3news.in/wp-content/uploads/2023/03/CM-Photo-01-dt.-06-March-2023.jpeg?fit=1229%2C705&ssl=1",
       url: "https://pmaymis.gov.in/"
     },
     {
       ministry_name: "Ministry of Health and Family Welfare",
       scheme_name: "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
       scheme_description: "Provides health insurance coverage of Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization.",
-      icon: "https://example.com/icons/ab-pmjay.png",
+      icon: "https://www.pmindia.gov.in/wp-content/uploads/2024/09/H20240917166404.jpg",
       url: "https://pmjay.gov.in/"
     }
   ];
@@ -48,35 +48,35 @@ const Opportunities = () => {
       organization: "Single Mothers Empowerment Foundation",
       scheme_name: "Financial Literacy Workshop",
       workshop_description: "Learn essential financial management skills, budgeting techniques, and investment strategies tailored for single mothers.",
-      icon: "https://example.com/icons/financial-literacy.png",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ9cuDJmKrIaXzAXZoLsDD2rfQZqQV9H9kfA&s",
       url: "https://www.singlemothersempowerment.org/workshops/financial-literacy"
     },
     {
       organization: "Women's Entrepreneurship Initiative",
       scheme_name: "Small Business Startup Workshop",
       workshop_description: "A comprehensive guide to starting and running a small business, including business planning, marketing, and funding options.",
-      icon: "https://example.com/icons/business-startup.png",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKHr0Af6La3sx7Q0uo4dWLJ-RFRHebfmhSfFHb4AYFOTC5gx7UppTKtGpPvoZd8MphMw&usqp=CAU",
       url: "https://www.womenentrepreneurship.org/workshops/small-business-startup"
     },
     {
       organization: "Parenting Skills Network",
       scheme_name: "Single Parent Coaching Workshop",
       workshop_description: "Develop effective parenting strategies, learn to balance work and family life, and connect with other single parents for support.",
-      icon: "https://example.com/icons/parenting-skills.png",
+      icon: "https://staticimg.insurancedekho.com/strapi/Single_Parents_1_e71d293f37.webp?updated_at=2024-10-01T09:10:14.805Z",
       url: "https://www.parentingskillsnetwork.org/workshops/single-parent-coaching"
     },
     {
       organization: "Career Advancement for Women",
       scheme_name: "Professional Development Workshop",
       workshop_description: "Enhance your career prospects with sessions on resume building, interview skills, networking, and workplace communication.",
-      icon: "https://example.com/icons/career-advancement.png",
+      icon: "https://staticimg.insurancedekho.com/strapi/Single_Parents_1_e71d293f37.webp?updated_at=2024-10-01T09:10:14.805Z",
       url: "https://www.careeradvancementforwomen.org/workshops/professional-development"
     },
     {
       organization: "Healthy Living Initiative",
       scheme_name: "Self-Care and Wellness Workshop",
       workshop_description: "Learn stress management techniques, healthy lifestyle habits, and self-care practices to maintain physical and mental well-being.",
-      icon: "https://example.com/icons/self-care.png",
+      icon: "https://i.ytimg.com/vi/7NeKseRAaY4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA8JTT5t3hB6oZfNQy5sPMypt7vWg",
       url: "https://www.healthylivinginitiative.org/workshops/self-care-wellness"
     }
   ];
@@ -86,21 +86,21 @@ const Opportunities = () => {
       company: "FlexJobs Inc.",
       scheme_name: "Remote Customer Service Representative", 
       scheme_description: "Flexible hours, work from home opportunity perfect for single mothers.",
-      url: "https://www.flexjobs.com/jobs/telecommuting-jobs-at-flexjobs",
+      url: "https://i.ytimg.com/vi/7NeKseRAaY4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA8JTT5t3hB6oZfNQy5sPMypt7vWg",
       icon: "https://example.com/icons/customer-service.png"
     },
     { 
       company: "MomCorps",
       scheme_name: "Part-time Administrative Assistant", 
       scheme_description: "20 hours per week, flexible schedule, family-friendly policies.",
-      url: "https://corpsteam.com/jobs",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNRdltDtonPammiqxobV0R1c-s9F-qSomLww&s",
       icon: "https://example.com/icons/administrative.png"
     },
     { 
       company: "WorkingMother.com",
       scheme_name: "Freelance Content Writer", 
       scheme_description: "Write articles on parenting and work-life balance. Set your own hours.",
-      url: "https://www.workingmother.com/work-life-balance",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRemxYqU98ri_Gq8GRZlCMFHFDPPx-yH7ZoFg&s",
       icon: "https://example.com/icons/content-writing.png"
     },
   ];
@@ -137,7 +137,7 @@ const Opportunities = () => {
                 />
               )}
               <div className="ml-4">
-                <h2 className="text-md font-semibold">
+                <h2 className="text-md text-dblue font-semibold">
                   {item.ministry_name || item.organization || item.company}
                 </h2>
               </div>
@@ -146,23 +146,23 @@ const Opportunities = () => {
               <img
                 src={item.icon}
                 alt="Scheme Icon"
-                className="mt-2 h-28 w-full object-contain"
+                className="mt-2 h-44 w-[500px] object-contain"
               />
               <div className="mt-2 pt-2 pb-2 mb-2 pd-2">
                 <a href={item.url}>
-                  <h5 className="pt-2 pb-2 mb-2 text-xl font-bold tracking-tight text-gray-900">
+                  <h5 className="pt-2 pb-2 mb-2 text-xl font-bold tracking-tight text-dblue">
                     {item.scheme_name}
                   </h5>
                 </a>
-                <p className="pt-2 pb-2 pd-2 mb-3 font-normal text-gray-700">
+                <p className="pt-2 pb-2 pd-2 mb-3 font-normal text-dblue">
                   {item.scheme_description}
                 </p>
                 <a
                   href={item.url}
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg "
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-dblue  rounded-lg "
                 >
                   Details
-                  <ChevronRight className="w-3.5 h-3.5 ms-2" />
+                  <ChevronRight className="w-3.5 text-dblue h-3.5 ms-2" />
                 </a>
               </div>
             </div>
@@ -180,7 +180,7 @@ const Opportunities = () => {
           <Button
             key={category}
             variant={activeTab === category.toLowerCase() ? "default" : "ghost"}
-            className="w-full bg-[#00FFFF] text-dblue rounded-lg py-2.5 text-sm font-medium leading-5"
+            className="w-full bg-[#00FFFF] text-white rounded-lg py-2.5 text-sm font-medium leading-5"
             onClick={() => setActiveTab(category.toLowerCase())}
           >
             {category}

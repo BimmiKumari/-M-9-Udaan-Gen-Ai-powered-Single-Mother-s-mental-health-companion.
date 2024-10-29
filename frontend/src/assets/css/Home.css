@@ -251,7 +251,8 @@ button {
         font-weight:800;
     }
     .Card_container img{
-        width:293px;
+        width:100px;
+        height:40px;
     }
     .smmediatimeline{
         margin-top:1800px;

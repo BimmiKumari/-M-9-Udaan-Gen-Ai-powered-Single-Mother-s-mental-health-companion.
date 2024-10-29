@@ -10,8 +10,8 @@ import { IoLogOutOutline } from "react-icons/io5";
 import { HiMenuAlt2 } from "react-icons/hi";
 import Logo from "../assets/Images/logo.png";
 import { GoComment } from "react-icons/go";
-import { FcLikePlaceholder } from "react-icons/fc"; //before like
-import { FcLike } from "react-icons/fc"; //after like
+import { FcLikePlaceholder } from "react-icons/fc"; 
+import { FcLike } from "react-icons/fc";
 import toast, { Toaster } from "react-hot-toast";
 import { IoPersonSharp } from "react-icons/io5";
 import { GrInherit } from "react-icons/gr";
@@ -123,9 +123,8 @@ const Community = (props) => {
 
   useEffect(() => {
     if (user) {
-      setloggedusername(user.firstname); // Update the state with the username from Redux
-    } else {
-      setloggedusername(''); // Optionally, handle cases where user is not defined
+      setloggedusername(user.firstname); 
+      setloggedusername(''); 
       console.error('User data is not available in the Redux store');
     }
   }, [user]);
@@ -256,13 +255,17 @@ const Community = (props) => {
       <div className="w-full h-screen flex justify-start items-start relative bg-slate-100/100 text-black">
         <div className=" w-full h-full flex relative">
           <section className="w-64 fixed flex flex-col h-[87%] bg-white mt-24 ml-3 rounded-xl z-10 ">
-           
-           
+           <img src="https://i.ytimg.com/vi/H92ppYGgqhs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA-1TUWjQsRE3OPLG6Kx4K9Z1IGwQ" alt="Not loaded" className="mt-10 h-[180px]"/>
+           <button className="w-[200px] mt-10 ml-6">
+           <a href="https://udaanmeetingroom.netlify.app/" target="_blank">Generate Link </a>
+           </button><h1 className="ml-4">To organize community meet.</h1>
           </section>
           <main className="ml-[289px] w-full h-auto mr-80 mt-28 rounded-xl text-black">
-            <h1 className="text-2xl text-white text-reqtext">POSTS</h1>
+            <h1 className="text-2xl text-white text-reqtext ml-8">POSTS</h1>
             <div className=" bg-slate-400/10 w-full h-44 rounded-xl mt-6">
+             
               <div>
+              <div className="text-white ml-8">Hey {user?.firstname},Share your thought? </div>
                 <input
                   type="text"
                   className="bg-slate-200/10 w-[93%] h-36 rounded-xl mt-4 ml-8 border-none p-3"
@@ -282,7 +285,7 @@ const Community = (props) => {
                 </div>
               </div>
             </div>
-            <h1 className=" fixed right-36 top-24 text-reqtext text-2xl">
+            <h1 className=" fixed right-36 top-24 text-white text-reqtext text-2xl">
               Featured Blogs
             </h1>
             <div className="flex justify-center items-center mt-20 mb-10">
@@ -403,7 +406,25 @@ const Community = (props) => {
             </div>
           </main>
           <section className=" bg-white w-72 rounded-xl text-black h-[80%] top-36 right-3 flex flex-col fixed z-10 hover:overflow-y-scroll hover:no-scrollbar">
-            
+          {aloo.map((item, index) => (
+              <div
+                className="w-full h-24 text-black rounded-xl mt-4 flex flex-col p-5"
+                key={index}
+              >
+                <div className="flex">
+                  <div className="flex rounded-full bg-theme w-14 h-14">
+                    <IoPersonSharp className="text-black m-auto" />
+                  </div>
+                  <div className="flex justify-start items-start">
+                    <div className="text-md ml-10">
+                      {item.title}
+                      <div className="text-sm ">{item.about}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+
           </section>
         </div>
       </div>

@@ -8,9 +8,11 @@ import Quiz from "../components/mentalhealthscore/Quiz"
 import SearchWeb from '../components/core/Search/SearchWeb/SearchWeb';
 import { GrTechnology } from "react-icons/gr";
 import { FaFileMedicalAlt } from "react-icons/fa";
-import ContactForm from "../components/ContactPage/ContactForm";
 import { apiConnector } from "../services/apiconnector";
 import { useSelector } from "react-redux";
+import cardpic1 from "../assets/Images/cardpic1.jpg"
+import cardpic2 from "../assets/Images/cardpic2.jpg"
+import cardpic3 from "../assets/Images/cardpic3.jpg"
 import HighlightText from "../components/core/HomePage/HighlightText";
 import { categories } from "../services/apis";
 function Home() {
@@ -73,7 +75,8 @@ function Home() {
     <Quiz />    
     </div>
     </div>
-     <div className='Outerdiv mr-10 '>
+     <div className='Outerdiv text-white mr-10 '>
+      
      <AudioStories/>
        <div className='Container '>
          <div className='sub1 text-4xl '>
@@ -109,9 +112,8 @@ function Home() {
                      <FaFileMedicalAlt style={{width:"150",height:"60",color:"white",marginTop:"30",marginRight:"10"}}/>
                  </div>
                  <div className="cardbody relative">
-                  <div className="Card_container z-20">
-                   {/*<img src={cardpic1} alt="Not loaded" className='rounded-b-lg'/> */} 
-                   
+                  <div className="Card_container  z-20">
+                   <img src={cardpic1} alt="Not loaded"  className='rounded-b-lg '/> 
                     
                   </div>
                   <div className="absolute z-30 top-44 flex flex-col items-center bg-white w-5.5/6 left-3 right-3 rounded-lg p-4">
@@ -137,7 +139,7 @@ function Home() {
                  </div>
                  <div className="cardbody">
                  <div className="Card_container">
-                    {/*<img src={cardpic1} alt="Not loaded" className='rounded-b-lg'/> */} 
+                    <img src={cardpic2} alt="Not loaded" className='rounded-b-lg'/> 
                    
                   </div>
                   <div className="absolute z-30 top-44 flex flex-col items-center bg-white w-5.5/6 left-3 right-3 rounded-lg p-4">
@@ -163,7 +165,7 @@ function Home() {
                  </div>
                  <div className="cardbody">
                  <div className="Card_container">
-                    {/*<img src={cardpic1} alt="Not loaded" className='rounded-b-lg'/> */} 
+                    <img src={cardpic3} alt="Not loaded" className='rounded-b-lg'/> 
                     
                   </div>
                   <div className="absolute z-30 top-44 flex flex-col items-center bg-white w-5.5/6 left-3 right-3 rounded-lg p-4">
