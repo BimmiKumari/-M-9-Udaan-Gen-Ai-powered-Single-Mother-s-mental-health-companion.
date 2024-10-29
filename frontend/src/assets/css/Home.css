@@ -1,0 +1,334 @@
+
+
+.Home {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: black;
+}
+@media only screen and (min-width: 901px){
+.Home {
+    margin-left:0px;
+    height:100%; 
+    padding: 10px; 
+    background:  black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Outerdiv{
+    display: flex;
+    margin-left:0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:1000px;
+}
+.Container{
+    margin-top:20px ;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+}
+ul,li{
+    list-style-type:none;
+    display:flex;
+    justify-content: space-between;
+    padding-right: 50px;
+
+}
+ 
+button {
+    padding: 8px 16px;
+    background-color: aqua;
+    color: rgb(4, 4, 31);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:#16f50a96;
+    color:white;
+  }
+  .sub1{
+    margin-bottom:17px;
+    
+  }
+
+.sub3{
+    padding:12px ;
+    width:1050px;
+    height:80px;
+    display:flex;
+    margin-top:6px;
+    
+}
+.cardcollection{
+    margin-top:10px;
+    display:flex;
+    width:80%;
+    height:500px;
+    border-radius:8px; 
+}
+.Card{
+    height:400px;
+    width:30%;
+    margin-top:26px;
+    border-radius:8px;
+    margin-left:25px;
+}
+.cardhead1{
+ width:100%;
+ height:100px;
+ background: linear-gradient(90deg, rgba(179, 115, 29, 1) 0%, rgba(87, 43, 4, 1) 100%);
+ border-radius:8px 8px 0px 0px;
+ display:flex;
+ 
+}
+.cardhead2{
+    width:100%;
+    height:100px;
+    background: linear-gradient(90deg, rgba(72, 182, 174, 1) 0%, rgba(14, 44, 41, 1) 100%);
+    border-radius:8px 8px 0px 0px;
+    display:flex;
+   }
+.cardhead3{
+    width:100%;
+    height:100px;
+    background: linear-gradient(90deg, rgba(70, 160, 185, 1) 0%, rgba(14, 44, 41, 1) 100%);
+    border-radius:8px 8px 0px 0px;
+    display:flex;
+   }
+.cardbody{
+    width:100%;
+    position: relative;
+}
+.heading{
+    display:flex;
+    width:500px;
+    margin-left:35px;
+    margin-top:35px;
+    color:white;
+    font-weight:800;
+    
+}
+.heading2{
+    color:white;
+    font-weight:800;
+}
+
+
+.bookNow{
+    margin-top:20px;
+}
+}
+@media only screen and (max-width: 600px){
+    .Home {
+        margin-left:0px;
+        max-width:600px;
+        height:100%; 
+        padding: 10px; 
+        background:  rgb(0, 0, 0) ;
+        
+    }
+    .Outerdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .Container{
+        margin-top:50px ;
+        color:white;
+        display:flex;
+        flex-direction:column;
+        padding:30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul,li{
+        list-style-type:none;
+        display:flex;
+        flex-direction: column;    
+    
+    }
+
+      
+      button {
+        padding: 8px 16px;
+        
+        color: white;
+        background-color: aqua;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #16f50a96;
+        color:black;
+      }
+      .sub1{
+        margin-bottom:17px;
+        max-width:300px;
+      }
+    
+    .sub3{
+        padding:12px ;
+        max-width:600px;
+        height:80px;
+        display:flex;
+        margin-top:50px;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .cardcollection{
+        margin-top:100px;
+        display:flex;
+        flex-direction: column;
+        width:80%;
+        height:100%;
+        background-color: rgb(248, 247, 245);
+        border-radius:8px; 
+    }
+    .smmedia{
+        display:flex;
+        flex-direction: column;
+    }
+    .Card{
+        height:400px;
+        width:85%;
+        margin-top:26px;
+        border-radius:8px;
+        margin-left:25px;
+        margin-bottom: 200px;
+    }
+    .cardhead1{
+     width:100%;
+     height:100px;
+     background: linear-gradient(90deg, rgba(179, 115, 29, 1) 0%, rgba(87, 43, 4, 1) 100%);
+     border-radius:8px 8px 0px 0px;
+     display:flex;
+     
+    }
+    .cardhead2{
+        width:100%;
+        height:100px;
+        background: linear-gradient(90deg, rgba(72, 182, 174, 1) 0%, rgba(14, 44, 41, 1) 100%);
+        border-radius:8px 8px 0px 0px;
+        display:flex;
+       }
+    .cardhead3{
+        width:100%;
+        height:100px;
+        background: linear-gradient(90deg, rgba(70, 160, 185, 1) 0%, rgba(14, 44, 41, 1) 100%);
+        border-radius:8px 8px 0px 0px;
+        display:flex;
+       }
+    .cardbody{
+        width:100%;
+        position: relative;
+    }
+    .heading{
+        display:flex;
+        width:500px;
+        margin-left:35px;
+        margin-top:35px;
+        color:white;
+        font-weight:800;
+        
+    }
+    .heading2{
+        color:white;
+        font-weight:800;
+    }
+    .Card_container img{
+        width:293px;
+    }
+    .smmediatimeline{
+        margin-top:1800px;
+        
+    }
+    .smmediatipline {
+        margin-top:20px;
+        height:1000px;
+    }
+    .smmediatipline img{
+        width:200px;
+        height:200px;
+    }
+    .bookNow{
+        margin-top:10px;
+    }
+    .smmedianavbar{
+        height:100px;
+        font-size: small;
+
+    }
+    .smmedianavbar img{
+        height:30px;
+        width:100px;
+    }
+    .smmediaprofile{
+        display:flex;
+    }
+   
+}
+.quiz-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    color:white;
+    font-weight: bold;
+  }
+  
+  .question-container {
+    margin-bottom:80px;
+    margin-top:10%;
+  }
+  
+  .options button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: rgb(6, 6, 57);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 18px 34px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: box-shadow 0.3s ease;
+}
+  
+.options button:hover {
+    background-color: #00ff00; 
+    color:white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+}
+  
+  .result-container {
+    font-size: 14px;
+    padding: 20px;
+    
+  }
+  
+  .result-container h3 {
+    color: #ffd700; /* Gold color for coins */
+    font-size: 1.0em;
+    padding: 10px;
+  }
+  

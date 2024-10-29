@@ -1,0 +1,101 @@
+@media only screen and (min-width: 901px){
+
+.rightsection{
+    display: flex;
+    gap:10px;
+    margin-left:150px;
+    margin-top:0px;
+
+}
+.loginbtn{
+    height:35px;
+    display:flex;
+    gap:5px;
+    margin-top:10px;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+    
+}
+.tab{
+    display:flex;
+    flex-direction: row;
+    width:120px;
+    height:20px;
+    gap:6px;
+    margin-top:10px;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    .Navbar{
+        display:flex;
+        flex-direction: row;
+        margin-top: 0px;
+        color:white;
+        margin-left:0px;
+        background-color: black;
+        gap:2px;
+        padding-top:30px;
+        padding-left:30px;
+    }
+    .rightsection{
+        display: flex;
+        gap:10px;
+        margin-left:200px;
+        margin-top:0px;
+    
+    }
+    .loginbtn{
+        height:35px;
+        display:flex;
+        gap:5px;
+        margin-top:10px;
+        
+    }
+    .tab{
+        display:flex;
+        flex-direction: row;
+        width:100px;
+        height:20px;
+        gap:2px;
+        margin-top:12px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .Navbar{
+        display:flex;
+        flex-direction: row;
+        margin-top: 0px;
+        color:white;
+        margin-left:0px;
+        background-color: black;
+        gap:2px;
+        padding-top:30px;
+        padding-left:30px;
+    }
+    .rightsection{
+        display: flex;
+        gap:10px;
+        margin-left:250px;
+        margin-top:0px;
+    
+    }
+    .loginbtn{
+        height:35px;
+        display:flex;
+        gap:5px;
+        margin-top:10px;
+        
+    }
+    .tab{
+        display:flex;
+        flex-direction: row;
+        width:150px;
+        height:20px;
+        gap:2px;
+        
+        margin-top:12px;
+    }
+  
+}
